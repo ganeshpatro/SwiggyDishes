@@ -73,17 +73,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D5B635D821143A51006F34BE /* SwiggyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiggyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B635D821143A51006F34BE /* SwiggyDishes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiggyDishes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B635DB21143A51006F34BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5B635E021143A51006F34BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5B635E321143A51006F34BE /* SwiggyTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiggyTest.xcdatamodel; sourceTree = "<group>"; };
 		D5B635E521143A54006F34BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B635E821143A54006F34BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5B635EA21143A54006F34BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5B635EF21143A54006F34BE /* SwiggyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiggyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B635EF21143A54006F34BE /* SwiggyDishesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiggyDishesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B635F321143A54006F34BE /* SwiggyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiggyTestTests.swift; sourceTree = "<group>"; };
 		D5B635F521143A54006F34BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5B635FA21143A54006F34BE /* SwiggyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiggyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B635FA21143A54006F34BE /* SwiggyDishesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiggyDishesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B635FE21143A54006F34BE /* SwiggyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiggyTestUITests.swift; sourceTree = "<group>"; };
 		D5B6360021143A54006F34BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B6361021143B9E006F34BE /* SelectCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoriesViewController.swift; sourceTree = "<group>"; };
@@ -139,9 +139,9 @@
 		D5B635D921143A51006F34BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5B635D821143A51006F34BE /* SwiggyTest.app */,
-				D5B635EF21143A54006F34BE /* SwiggyTestTests.xctest */,
-				D5B635FA21143A54006F34BE /* SwiggyTestUITests.xctest */,
+				D5B635D821143A51006F34BE /* SwiggyDishes.app */,
+				D5B635EF21143A54006F34BE /* SwiggyDishesTests.xctest */,
+				D5B635FA21143A54006F34BE /* SwiggyDishesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5B635D721143A51006F34BE /* SwiggyTest */ = {
+		D5B635D721143A51006F34BE /* SwiggyDishes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B6360321143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyTest" */;
+			buildConfigurationList = D5B6360321143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyDishes" */;
 			buildPhases = (
 				D5B635D421143A51006F34BE /* Sources */,
 				D5B635D521143A51006F34BE /* Frameworks */,
@@ -269,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiggyTest;
+			name = SwiggyDishes;
 			productName = SwiggyTest;
-			productReference = D5B635D821143A51006F34BE /* SwiggyTest.app */;
+			productReference = D5B635D821143A51006F34BE /* SwiggyDishes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D5B635EE21143A54006F34BE /* SwiggyTestTests */ = {
+		D5B635EE21143A54006F34BE /* SwiggyDishesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B6360621143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyTestTests" */;
+			buildConfigurationList = D5B6360621143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyDishesTests" */;
 			buildPhases = (
 				D5B635EB21143A54006F34BE /* Sources */,
 				D5B635EC21143A54006F34BE /* Frameworks */,
@@ -287,14 +287,14 @@
 			dependencies = (
 				D5B635F121143A54006F34BE /* PBXTargetDependency */,
 			);
-			name = SwiggyTestTests;
+			name = SwiggyDishesTests;
 			productName = SwiggyTestTests;
-			productReference = D5B635EF21143A54006F34BE /* SwiggyTestTests.xctest */;
+			productReference = D5B635EF21143A54006F34BE /* SwiggyDishesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D5B635F921143A54006F34BE /* SwiggyTestUITests */ = {
+		D5B635F921143A54006F34BE /* SwiggyDishesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B6360921143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyTestUITests" */;
+			buildConfigurationList = D5B6360921143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyDishesUITests" */;
 			buildPhases = (
 				D5B635F621143A54006F34BE /* Sources */,
 				D5B635F721143A54006F34BE /* Frameworks */,
@@ -305,9 +305,9 @@
 			dependencies = (
 				D5B635FC21143A54006F34BE /* PBXTargetDependency */,
 			);
-			name = SwiggyTestUITests;
+			name = SwiggyDishesUITests;
 			productName = SwiggyTestUITests;
-			productReference = D5B635FA21143A54006F34BE /* SwiggyTestUITests.xctest */;
+			productReference = D5B635FA21143A54006F34BE /* SwiggyDishesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +333,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5B635D321143A51006F34BE /* Build configuration list for PBXProject "SwiggyTest" */;
+			buildConfigurationList = D5B635D321143A51006F34BE /* Build configuration list for PBXProject "SwiggyDishes" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -346,9 +346,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B635D721143A51006F34BE /* SwiggyTest */,
-				D5B635EE21143A54006F34BE /* SwiggyTestTests */,
-				D5B635F921143A54006F34BE /* SwiggyTestUITests */,
+				D5B635D721143A51006F34BE /* SwiggyDishes */,
+				D5B635EE21143A54006F34BE /* SwiggyDishesTests */,
+				D5B635F921143A54006F34BE /* SwiggyDishesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,12 +450,12 @@
 /* Begin PBXTargetDependency section */
 		D5B635F121143A54006F34BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5B635D721143A51006F34BE /* SwiggyTest */;
+			target = D5B635D721143A51006F34BE /* SwiggyDishes */;
 			targetProxy = D5B635F021143A54006F34BE /* PBXContainerItemProxy */;
 		};
 		D5B635FC21143A54006F34BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5B635D721143A51006F34BE /* SwiggyTest */;
+			target = D5B635D721143A51006F34BE /* SwiggyDishes */;
 			targetProxy = D5B635FB21143A54006F34BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -647,7 +647,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiggyTest.app/SwiggyTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiggyDishes.app/SwiggyDishes";
 			};
 			name = Debug;
 		};
@@ -668,7 +668,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiggyTest.app/SwiggyTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiggyDishes.app/SwiggyDishes";
 			};
 			name = Release;
 		};
@@ -715,7 +715,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5B635D321143A51006F34BE /* Build configuration list for PBXProject "SwiggyTest" */ = {
+		D5B635D321143A51006F34BE /* Build configuration list for PBXProject "SwiggyDishes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B6360121143A54006F34BE /* Debug */,
@@ -724,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B6360321143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyTest" */ = {
+		D5B6360321143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyDishes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B6360421143A54006F34BE /* Debug */,
@@ -733,7 +733,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B6360621143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyTestTests" */ = {
+		D5B6360621143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyDishesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B6360721143A54006F34BE /* Debug */,
@@ -742,7 +742,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B6360921143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyTestUITests" */ = {
+		D5B6360921143A54006F34BE /* Build configuration list for PBXNativeTarget "SwiggyDishesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B6360A21143A54006F34BE /* Debug */,
